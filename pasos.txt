@@ -1,0 +1,25 @@
+editar la conexcion a la BD en el archivo .env
+editar la migracion de USERS 
+
+php artisan migrate
+
+editar el modelo de Users
+
+php artisan make:controller RegisterController
+
+php artisan make:request RegisterRequest
+
+agrega autorizacion y reglas de validacion a los campos
+
+agrega la ruta en WEB
+
+agrega en el controlador el metodo de registro, usando las validaciones
+
+php artisan make:request LoginRequest
+
+php artisan make:controller LoginController
+logica login, registrar, redirigir, log in con usuario recien creado
+
+php artisan make:controller HomeController
+
+php artisan make:controller LogoutController
